@@ -213,4 +213,40 @@ nav{
     margin-bottom: 5px;
 }
 
+/*responsividade*/
 
+
+@media  (max-width: 900px) {
+    .menu_icon {
+      display: none;
+    }
+
+    .sideBar{
+        display: none;
+    }
+
+    .container, .containerLargo{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .nav_direito img{
+        display: none;
+    }
+
+    .nav_direito .usuario_icon{
+        display: block;
+        width: 30px;
+    }
+
+    .nav_centro .micro{
+        display: none;
+    }
+
+    .nav_centro .procurar input{
+        width: 100px;
+    }
+    .logo{
+        width: 90px;
+    }
+  }
